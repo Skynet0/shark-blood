@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Crimson+Text&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="static/styles.css" />
+    <script src="static/chat.js" defer></script>
+  </head>
+  <body>
+    <div id="paper">
+      <div class="panel panel-primary chatbox" id="chatbox">
+        <div class="panel-heading">Chat</div>
+        <div class="panel-body" id="chatbox-body">
+          <ul class="chat" id="chat-list"></ul>
+        </div>
+        <div class="panel-footer">
+          <div class="input-group">
+            <input
+              id="btn-input"
+              type="text"
+              class="form-control input-sm btn-input"
+              placeholder="Type your message here..."
+              maxlength="300"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

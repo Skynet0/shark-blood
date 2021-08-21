@@ -1,0 +1,18 @@
+This contains the code to run Sharks Blood
+
+Normally the puzzle would be run off a server and the responses setup on a server but due to memory limitations we are giving the code directly.
+
+The code contains spoilers.
+
+To run in the console
+python chatbot.py
+
+This code requires
+nltk 2.0.4
+
+To setup the webserver you need to hook into frontend.chatbot in a django webserver
+
+Skynet0 -- 8/18/2021:
+
+I've updated this to run on Python 3.9.6 and nltk 3.6.2, though this should work
+for Python 3, and 2.0.4<=nltk<=3.6.2.
