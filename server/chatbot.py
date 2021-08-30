@@ -1,8 +1,8 @@
 import os
 import subprocess
 from nltk.probability import *
-from ngram import NgramModel
-from chatbot_helper import *
+from server.ngram import NgramModel
+from server.chatbot_helper import *
 
 
 class ChatBot:

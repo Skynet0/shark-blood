@@ -1,6 +1,6 @@
 from flask import Flask, request, render_template
 
-from chatbot import bot
+from server.chatbot import bot
 
 app = Flask(__name__)
 bot = bot()

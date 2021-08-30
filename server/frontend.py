@@ -1,6 +1,6 @@
 from django.http import HttpResponse
 #from chatbot import bot1, bot2
-from chatbot import bot
+from server.chatbot import bot
 
 import json
 

@@ -7,8 +7,8 @@ authors = ["Ethan Ordentlich <ethan.ordentlich2017@gmail.com>"]
 [tool.poetry.dependencies]
 python = "^3.9"
 nltk = "^3.6.2"
-Django = "^3.2.6"
 Flask = "^2.0.1"
+gunicorn = "^20.0.4"
 
 [tool.poetry.dev-dependencies]
 
